@@ -61,3 +61,4 @@ CREATE TABLE "bookxing_data" (
 );
 ALTER TABLE "ratings_data" ADD CONSTRAINT "fk_ratings_data_Primary_ISBN_13" FOREIGN KEY("Primary_ISBN_13")
 REFERENCES "books_data" ("Primary_ISBN_13");
+
